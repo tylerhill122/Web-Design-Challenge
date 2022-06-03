@@ -1,0 +1,20 @@
+body {
+    background-color: #FFFBEF;
+  }
+  
+  h1 {
+    color: #41b1bf;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .selected {
+      color: #EFEFEF;
+      background-color: #85cdd6;
+      border-bottom:#6A7D84;
+
+  }
