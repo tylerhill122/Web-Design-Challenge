@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <title>Temperature vs. Latitude Visualization</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
 <div class="container">
 <div class="row">
-    <div class="p-5">
+    <div class="p-4">
         <h1>Python API Analysis</h1>
     </div>
 </div>
@@ -44,7 +44,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Data</a>
-                      </li>
+                    </li>
                   </ul>
                 </div>
             </nav>
@@ -54,7 +54,7 @@
     <div class="col-md-5">
       <div class="p-5">
         <ul class="list-group">
-            <li class="list-group-item active">Temperature vs. Latitude</li>
+            <li class="list-group-item selected">Temperature vs. Latitude</li>
             <li class="list-group-item"><a href="#">Humidity vs. Latitude</a></li>
             <li class="list-group-item"><a href="#">Cloudiness vs. Latitude</a></li>
             <li class="list-group-item"><a href="#">Wind speed vs Latitude</a></li>
@@ -62,17 +62,40 @@
       </div>
     </div>
     <div class="col-md-7">
-        <div class="card-body">
+        <div class="card-body" id="temp">
             <h5 class="card-title">Temperature vs. Latitude</h5>
             <p class="card-text">
                 <img src="../assets/images/temperature_vs_lat.png" alt="Temperature vs. Latitude">
             </p>
+        </div>
+        <div class="card-body" id="humid">
+          <h5 class="card-title">Humidity vs. Latitude</h5>
+          <p class="card-text">
+              <img src="../assets/images/humidity_vs_lat.png" alt="Humidity vs. Latitude">
+          </p>
+        </div>
+        <div class="card-body" id="cloudy">
+          <h5 class="card-title">Cloudiness vs. Latitude</h5>
+          <p class="card-text">
+              <img src="../assets/images/cloudiness_vs_lat.png" alt="Cloudiness vs. Latitude">
+          </p>
+        </div>
+        <div class="card-body" id="wind">
+          <h5 class="card-title">Wind Speed vs. Latitude</h5>
+          <p class="card-text">
+              <img src="../assets/images/windspeed_vs_lat.png" alt="Wind Speed vs. Latitude">
+          </p>
         </div>
     </div>
     </div>
     </div> 
 </div>
 </div>
+<div class="row">
+  <div class="p-4">
+  </div>
+</div>
+
 </div>
 
 
