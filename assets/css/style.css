@@ -15,24 +15,26 @@ body {
 
   .selected {
       color: #EFEFEF;
-      background-color: #85cdd6;
+      background-color: #41b1bf;
       border-bottom:#6A7D84;
-
   }
 
   .header {
     color: #41b1bf;
     background: #EFEFEF;
     border-radius: 15px 15px 0px 0px;
-    padding: 20px;
+    padding: 15px;
   }
 
   .footer {
     color: #41b1bf;
     background: #efefef;
-    border-radius: 0px 0px 15px 15px; 
+    border-radius: 0px 0px 15px 15px;
     padding: 20px;
+    text-align: center;
   }
+  
+  /* NAV BAR  */
 
   .new a {
     color:#ffffff;
@@ -41,4 +43,72 @@ body {
     margin: 7.7px;
     border-radius: 5px 5px 5px 5px;
     text-shadow: 2px 2px #41b1bf;
+  }
+
+  .new a:hover {
+    color: #b9b37e;
+    background: #41b1bf;
+    padding: 7.7px;
+    margin: 7.7px;
+    border-radius: 5px 5px 5px 5px;
+    text-shadow: 2px 2px #41b1bf;
+  }
+
+  /******************/
+
+
+  /* DROP DOWN MENU */
+
+  .new div {
+    color:#ffffff;
+    background: #85cdd6;
+    padding: 7.7px;
+    margin: 7.7px;
+    border-radius: 5px 5px 5px 5px;
+    text-shadow: 2px 2px #41b1bf;
+  }
+  .new div a:hover{
+    color: #b9b37e;
+    background: #85cdd6;
+    padding: 7.7px;
+    margin: 7.7px;
+    border-radius: 5px 5px 5px 5px;
+    text-shadow: 2px 2px #41b1bf;
+  }
+
+  /******************/
+
+
+  .list-group a {
+    color:#85cdd6;
+    text-decoration: none;
+  }
+
+  .list-group a:hover {
+    color: #b9b37e;
+  }
+
+
+  .list-group-item a:hover {
+    padding: 7.7px;
+    margin: 7.7px;
+    border-radius: 5px 5px 5px 5px;
+    font-style: normal;
+  }
+
+  .box {
+    background: #FFF;
+  }
+
+  .p-4 img {
+    width:50px;
+    height:50px;
+    opacity:0.5;
+  }
+  .p-4 img:hover {
+    opacity: 1;
+  }
+
+  .dropdown-menu {
+    background: #FFF;
   }
