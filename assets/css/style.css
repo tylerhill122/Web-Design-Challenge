@@ -1,10 +1,11 @@
 body {
-    background-color: #FFFBEF;
+    background-color: #85cdd6;
   }
   
   h1 {
-    color: #41b1bf;
-    text-align: center;
+    color: #EFEFEF;
+    text-align: left;
+    text-shadow: 3px 3px #41b1bf;
   }
   
   p {
@@ -17,4 +18,27 @@ body {
       background-color: #85cdd6;
       border-bottom:#6A7D84;
 
+  }
+
+  .header {
+    color: #41b1bf;
+    background: #EFEFEF;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+  }
+
+  .footer {
+    color: #41b1bf;
+    background: #efefef;
+    border-radius: 0px 0px 15px 15px; 
+    padding: 20px;
+  }
+
+  .new a {
+    color:#ffffff;
+    background: #85cdd6;
+    padding: 7.7px;
+    margin: 7.7px;
+    border-radius: 5px 5px 5px 5px;
+    text-shadow: 2px 2px #41b1bf;
   }
