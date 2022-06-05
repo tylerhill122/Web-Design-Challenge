@@ -113,3 +113,37 @@ body {
   .dropdown-menu {
     background: #FFF;
   }
+
+  table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+  td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+  .thumbnail {
+    width: 216px;
+    height: 144px;
+  }
+  
+  .home {
+    font-size: 22px;
+    color: #b9b37e;
+    text-shadow: 2px 2px #41b1bf;
+    margin: 10px;
+    padding: 10px;
+  }
+  .card-body p {
+    font-size: 16px;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(185,179,126, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-toggler {
+    border-color: #85cdd6;
+  } 
